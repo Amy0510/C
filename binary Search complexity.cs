@@ -1,4 +1,5 @@
 #include <iostream>
+//Binary Search through recursion
 int binarysearch(int* a, int l, int r, int x) {
 if (l > r) return -1;
 int m = (r + l) / 2;
